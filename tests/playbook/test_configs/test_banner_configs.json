@@ -1,0 +1,94 @@
+{
+  "variables": {
+    "text_1": "test123",
+    "text_2": "something completely new",
+    "text_4": "something new",
+    "text_5": "something else",
+    "text_6": "awplus",
+    "text_7": "test"
+
+  },
+  "required_configs": {
+    "test_init": [
+      {
+      "banner": "motd",
+      "text": "test123"
+      }
+    ],
+    "r_1": [
+    ],
+    "r_2": [
+      {
+        "banner": "exec",
+        "text": "something completely new"
+      },
+      {
+        "banner": "motd",
+        "text": "test123"
+      }
+    ],
+    "r_3": [
+      {
+        "banner": "exec",
+        "text": "something new"
+      },
+      {
+        "banner": "motd",
+        "text": "something else"
+      }
+    ],
+    "r_4": [
+      {
+        "banner": "motd",
+        "text": "test123"
+      }
+    ],
+    "r_5": [
+      {
+        "banner": "exec",
+        "text": "test123"
+      }
+    ],
+    "m_1": [
+      {
+        "banner": "motd",
+        "text": "test123"
+      }
+    ],
+    "m_2": [
+      {
+        "banner": "exec",
+        "text": "awplus"
+      },
+      {
+        "banner": "motd",
+        "text": "test123"
+      }
+    ],
+    "m_3": [
+      {
+        "banner": "motd",
+        "text": "awplus"
+      }
+    ],
+    "m_4": "Text is required.",
+    "m_5": "missing required arguments: banner found in config",
+    "m_6": [
+      {
+        "banner": "motd",
+        "text": "test123"
+      }
+    ],
+    "d_1": [
+      {
+        "banner": "motd",
+        "text": "test123"
+      }
+    ],
+    "d_2": [
+    ],
+    "d_3": "missing required arguments: banner found in config",
+    "d_4": [
+    ]
+  }
+}
